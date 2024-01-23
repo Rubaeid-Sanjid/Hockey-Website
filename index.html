@@ -405,9 +405,9 @@
           </p>
         </div>
         <!-- Contact container -->
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <!-- Left contact container -->
-          <div class="p-12 border-2 rounded-2xl">
+          <div class="p-3 md:p-12 border-2 rounded-2xl">
             <div class="flex flex-col gap-6">
               <!-- first card -->
               <div class="card-body bg-base-100 bg-[#BCED6D1A] rounded-2xl">
@@ -434,48 +434,58 @@
 
           <!-- Right container -->
           <div>
-            <label class="grid grid-cols-2 gap-6">
+            <label class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <div class="label">
                   <h3 class="text-xl font-bold">Your Name</h3>
                 </div>
-                <input type="text" placeholder="Enter your full name" class="bg-[#13131808] border-none input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Enter your full name" class="bg-[#13131808] border-none input input-bordered w-full" />
               </div>
               
               <div>
                 <div class="label">
                   <h3 class="text-xl font-bold">Your Email</h3>
                 </div>
-                <input type="text" placeholder="Enter your email" class="bg-[#13131808] border-none input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Enter your email" class="bg-[#13131808] border-none input input-bordered w-full" />
               </div>
 
               <div>
                 <div class="label">
                   <h3 class="text-xl font-bold">Subject</h3>
                 </div>
-                <input type="text" placeholder="Enter your subject" class="bg-[#13131808] border-none input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Enter your subject" class="bg-[#13131808] border-none input input-bordered w-full" />
               </div>
 
               <div>
                 <div class="label">
                   <h3 class="text-xl font-bold">Phone Number</h3>
                 </div>
-                <input type="text" placeholder="Enter your phone number" class="bg-[#13131808] border-none input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Enter your phone number" class="bg-[#13131808] border-none input input-bordered w-full" />
               </div>
 
-              <div class="grid col-span-2">
+              <div class="grid md:col-span-2">
                 <div class="label">
                   <h3 class="text-xl font-bold">Message</h3>
                 </div>
                 <textarea class="textarea bg-[#13131808] h-[60vh]" placeholder="Write your message"></textarea>
               </div>
 
-              <div class="col-span-2">
+              <div class="md:col-span-2">
                 <button class="btn bg-btn-color text-white w-full">Send Message</button>
               </div>
             </label>
 
             </label>
+          </div>
+
+          <!-- bottom container -->
+          <div class="col-span-2 flex flex-col justify-center items-center mt-6 bg-[#13131808] py-6 rounded-xl">
+            <h3 class="text-2xl font-extrabold">Social Media</h3>
+            <div class="space-x-5 text-2xl mt-4">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
           </div>
         </div>
       </section>
