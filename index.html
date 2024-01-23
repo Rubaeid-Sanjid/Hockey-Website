@@ -41,8 +41,8 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="container mx-auto px-3 lg:px-24 font-manrope">
-    <header>
+  <body class="font-manrope">
+    <header class="container mx-auto px-3 lg:px-24 ">
       <nav></nav>
       <!-- Banner -->
       <section class="my-8 md:my-24">
@@ -78,7 +78,7 @@
       </section>
     </header>
 
-    <main>
+    <main class="container mx-auto px-3 lg:px-24 ">
       <!-- Hockeys club section -->
       <section class="text-center space-y-6 md:space-y-20 my-8 md:my-24">
         <div>
@@ -479,7 +479,7 @@
           </div>
 
           <!-- bottom container -->
-          <div class="col-span-2 flex flex-col justify-center items-center mt-6 bg-[#13131808] py-6 rounded-xl">
+          <div class="md:col-span-2 flex flex-col justify-center items-center mt-6 bg-[#13131808] py-6 rounded-xl">
             <h3 class="text-2xl font-extrabold">Social Media</h3>
             <div class="space-x-5 text-2xl mt-4">
               <i class="fa-brands fa-twitter"></i>
@@ -490,5 +490,48 @@
         </div>
       </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="grid grid-cols-2 lg:grid-cols-4 gap-10 p-4 lg:p-20 bg-[#131318] text-[#FFFFFF99]">
+      <aside class="col-span-2 lg:col-auto space-y-4 flex flex-col items-center lg:items-start text-center lg:text-left">
+        <h2 class="text-3xl font-extrabold text-white">Get In Touch</h2>
+        <p class="">For any personalized support and inquiries, our dedicated team is here to assist you, ensuring your hockey experience is seamless and memorable.</p>
+        <div class="flex items-center space-x-4">
+          <i class="fa-regular fa-envelope text-btn-color"></i>
+          <span>hockeys@support.com</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <i class="fa-solid fa-phone text-btn-color"></i>
+          <span>(+62) 123-321-543</span>
+        </div>
+      </aside>
+
+      <nav class="flex flex-col items-center lg:items-start space-y-4 lg:ml-32">
+        <header class="text-lg font-bold text-white">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Article</a>
+        <a class="link link-hover">Legal Notice</a>
+      </nav>
+
+      <nav class="flex flex-col items-center lg:items-start space-y-4 lg:ml-32">
+        <header class="text-lg font-bold text-white">Support</header> 
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+
+      <nav class="col-span-2 lg:col-auto flex flex-col items-center lg:items-start space-y-4 lg:ml-32">
+        <header class="text-lg font-bold text-white">Services</header> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
+
+    </footer>
   </body>
 </html>
