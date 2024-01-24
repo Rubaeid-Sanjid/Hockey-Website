@@ -43,7 +43,39 @@
   </head>
   <body class="font-manrope">
     <header class="container mx-auto px-3 lg:px-24 ">
-      <nav></nav>
+      <!-- Navbar -->
+      <nav>
+        <div class="navbar p-0 bg-base-100 mt-6">
+          <div class="navbar-start">
+            <div class="dropdown text-base font-normal">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="text-3xl lg:text-5xl font-extrabold">Hockey<span class="text-btn-color">’</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-base font-normal">
+              <li><a class="text-btn-color">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-6">
+            <i class="fa-solid fa-magnifying-glass hidden md:inline"></i>
+            <a class="btn bg-btn-color text-white lg:text-xl font-bold">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
       <!-- Banner -->
       <section class="my-8 md:my-24">
         <div class="carousel w-full">
@@ -392,7 +424,9 @@
       </section>
 
       <!-- Clients section -->
-      <section></section>
+      <section>
+
+      </section>
 
       <!-- Get in touch -->
       <section class="my-8 md:my-24">
